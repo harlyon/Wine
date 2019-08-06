@@ -43,9 +43,18 @@ const navBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/login" className="nav-link text-left">
-                        Login
+                      <a href="/" className="nav-link text-left">
+                        Blog
                       </a>
+                    </li>
+                    <li>
+                      <i
+                        className="fa fa-cart-arrow-down snipcart-checkout snipcart-summary btn-danger"
+                        style={{ padding: "10px" }}
+                        aria-hidden="true"
+                      >
+                        (<span className="snipcart-total-items"></span>)
+                      </i>
                     </li>
                   </ul>
                 </nav>
@@ -54,7 +63,6 @@ const navBar = () => {
           </div>
         </div>
       </div>
-      <hr />
     </div>
   );
 };

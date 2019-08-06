@@ -6,17 +6,13 @@ export const Context = React.createContext();
 const API_URL = "http://localhost:1337/wines";
 
 export function ContextController({ children }) {
-  let intialState = {
-    wine: []
-  };
-
-  const [state, setState] = useState(intialState);
+  const [wine, setWine] = useState("");
 
   useEffect(() => {
     axios
       .get(API_URL)
       .then(res => {
-        setState({
+        setWine({
           wine: res.data
         });
       })
@@ -24,6 +20,6 @@ export function ContextController({ children }) {
   }, []);
 
   return (
-    <Context.Provider value={[state, setState]}>{children}</Context.Provider>
+    <Context.Provider value={[wine, setWine]}>{children}</Context.Provider>
   );
 }

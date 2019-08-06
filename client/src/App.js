@@ -6,6 +6,7 @@ import NavBar from "./Components/navBar";
 import login from "./Pages/login";
 import Products from "./Pages/products";
 import { ContextController } from "./Config/context";
+import singleProduct from "./Pages/singleProduct";
 
 function App() {
   return (
@@ -13,11 +14,12 @@ function App() {
       <Router>
         <>
           <NavBar />
-          <div className="container">
+          <div className="">
             <Switch>
               <Route exact path="/" component={landing} />
               <Route exact path="/products" component={Products} />
               <Route exact path="/login" component={login} />
+              <Route exact path="/:item" component={singleProduct} />
             </Switch>
           </div>
         </>

@@ -70,5 +70,16 @@ module.exports = {
 
   destroy: async (ctx, next) => {
     return strapi.services.wine.remove(ctx.params);
-  }
+  },
+
+//   snipcartParser: async (ctx) => {
+//     let wines = await strapi.services.wines.fetchAll(ctx.query);
+//     return wines.map(wine => {
+//         return {
+//         id: wine._id,
+//         price: wine.price,
+//         url: "http://localhost:1337/wines/snipcartParser"
+//         }
+//     })
+// }
 };

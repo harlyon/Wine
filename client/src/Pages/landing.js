@@ -4,7 +4,7 @@ import img from "../Images/bg.jpg";
 const landing = () => {
   const image = {
     backgroundImage: `url(${img})`,
-    height: "70vh",
+    height: "81vh",
     backgroundSize: "cover"
   };
   const subtitle = {

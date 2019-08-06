@@ -1,6 +1,5 @@
 {
-  "routes": [
-    {
+  "routes": [{
       "method": "GET",
       "path": "/wines",
       "handler": "Wine.find",
@@ -36,6 +35,14 @@
       "method": "PUT",
       "path": "/wines/:id",
       "handler": "Wine.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/snipcartParser",
+      "handler": "Wine.snipcartParser",
       "config": {
         "policies": []
       }
