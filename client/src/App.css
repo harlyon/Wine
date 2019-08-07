@@ -29,16 +29,7 @@ a:hover {
   text-decoration: none
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-family: roboto, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji
 }
 
@@ -164,9 +155,7 @@ h5,
   transition: .8s all ease-in-out
 }
 
-.hover-bg-enlarge:hover>div,
-.hover-bg-enlarge:focus>div,
-.hover-bg-enlarge:active>div {
+.hover-bg-enlarge:hover>div, .hover-bg-enlarge:focus>div, .hover-bg-enlarge:active>div {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2)
@@ -213,9 +202,7 @@ h5,
 }
 
 @media(max-width:991.98px) {
-
-  .display-1,
-  .display-3 {
+  .display-1, .display-3 {
     font-size: 3rem
   }
 }
@@ -284,13 +271,11 @@ h5,
   color: #930077
 }
 
-.select-wrap,
-.wrap-icon {
+.select-wrap, .wrap-icon {
   position: relative
 }
 
-.select-wrap .icon,
-.wrap-icon .icon {
+.select-wrap .icon, .wrap-icon .icon {
   position: absolute;
   right: 10px;
   top: 50%;
@@ -300,8 +285,7 @@ h5,
   font-size: 22px
 }
 
-.select-wrap select,
-.wrap-icon select {
+.select-wrap select, .wrap-icon select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -352,11 +336,12 @@ h5,
   padding-left: 0
 }
 
-.site-navbar .site-navigation .site-menu>li>a {
+li>a {
   text-transform: uppercase;
+  font-family: cinzel;
   font-size: .8rem;
   letter-spacing: .05rem;
-  font-weight: 400;
+  font-weight: 600;
   display: inline-block;
   text-decoration: none !important;
   color: #000
@@ -466,34 +451,25 @@ h5,
   right: 20px
 }
 
-.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>.dropdown,
-.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>ul {
+.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>.dropdown, .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children>ul {
   left: 100%;
   top: 0
 }
 
-.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:hover>a,
-.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:active>a,
-.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:focus>a {
+.site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:hover>a, .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:active>a, .site-navbar .site-navigation .site-menu .has-children .dropdown>li.has-children:focus>a {
   background: #f4f5f9;
   color: #25262a
 }
 
-.site-navbar .site-navigation .site-menu .has-children:hover>a,
-.site-navbar .site-navigation .site-menu .has-children:focus>a,
-.site-navbar .site-navigation .site-menu .has-children:active>a {
+.site-navbar .site-navigation .site-menu .has-children:hover>a, .site-navbar .site-navigation .site-menu .has-children:focus>a, .site-navbar .site-navigation .site-menu .has-children:active>a {
   color: #000
 }
 
-.site-navbar .site-navigation .site-menu .has-children:hover,
-.site-navbar .site-navigation .site-menu .has-children:focus,
-.site-navbar .site-navigation .site-menu .has-children:active {
+.site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
   cursor: pointer
 }
 
-.site-navbar .site-navigation .site-menu .has-children:hover>.dropdown,
-.site-navbar .site-navigation .site-menu .has-children:focus>.dropdown,
-.site-navbar .site-navigation .site-menu .has-children:active>.dropdown {
+.site-navbar .site-navigation .site-menu .has-children:hover>.dropdown, .site-navbar .site-navigation .site-menu .has-children:focus>.dropdown, .site-navbar .site-navigation .site-menu .has-children:active>.dropdown {
   -webkit-transition-delay: 0s;
   -o-transition-delay: 0s;
   transition-delay: 0s;
@@ -840,25 +816,16 @@ h5,
   text-decoration: underline
 }
 
-.owl-slide-3,
-.owl-slide,
-.owl-style {
+.owl-slide-3, .owl-slide, .owl-style {
   position: relative
 }
 
-.owl-slide-3 .owl-stage,
-.owl-slide .owl-stage,
-.owl-style .owl-stage {
+.owl-slide-3 .owl-stage, .owl-slide .owl-stage, .owl-style .owl-stage {
   padding-top: 30px;
   padding-bottom: 30px
 }
 
-.owl-slide-3 .owl-nav .owl-prev,
-.owl-slide-3 .owl-nav .owl-next,
-.owl-slide .owl-nav .owl-prev,
-.owl-slide .owl-nav .owl-next,
-.owl-style .owl-nav .owl-prev,
-.owl-style .owl-nav .owl-next {
+.owl-slide-3 .owl-nav .owl-prev, .owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-prev, .owl-slide .owl-nav .owl-next, .owl-style .owl-nav .owl-prev, .owl-style .owl-nav .owl-next {
   position: absolute;
   top: 50%;
   text-align: center;
@@ -870,12 +837,7 @@ h5,
   background: #fff
 }
 
-.owl-slide-3 .owl-nav .owl-prev>span,
-.owl-slide-3 .owl-nav .owl-next>span,
-.owl-slide .owl-nav .owl-prev>span,
-.owl-slide .owl-nav .owl-next>span,
-.owl-style .owl-nav .owl-prev>span,
-.owl-style .owl-nav .owl-next>span {
+.owl-slide-3 .owl-nav .owl-prev>span, .owl-slide-3 .owl-nav .owl-next>span, .owl-slide .owl-nav .owl-prev>span, .owl-slide .owl-nav .owl-next>span, .owl-style .owl-nav .owl-prev>span, .owl-style .owl-nav .owl-next>span {
   font-size: 1.5rem;
   position: absolute;
   top: 50%;
@@ -885,21 +847,15 @@ h5,
   transform: translate(-50%, -50%)
 }
 
-.owl-slide-3 .owl-nav .owl-prev,
-.owl-slide .owl-nav .owl-prev,
-.owl-style .owl-nav .owl-prev {
+.owl-slide-3 .owl-nav .owl-prev, .owl-slide .owl-nav .owl-prev, .owl-style .owl-nav .owl-prev {
   left: 0
 }
 
-.owl-slide-3 .owl-nav .owl-next,
-.owl-slide .owl-nav .owl-next,
-.owl-style .owl-nav .owl-next {
+.owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-next, .owl-style .owl-nav .owl-next {
   right: 0
 }
 
-.owl-slide-3 .owl-dots,
-.owl-slide .owl-dots,
-.owl-style .owl-dots {
+.owl-slide-3 .owl-dots, .owl-slide .owl-dots, .owl-style .owl-dots {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -909,15 +865,11 @@ h5,
   text-align: center
 }
 
-.owl-slide-3 .owl-dots .owl-dot,
-.owl-slide .owl-dots .owl-dot,
-.owl-style .owl-dots .owl-dot {
+.owl-slide-3 .owl-dots .owl-dot, .owl-slide .owl-dots .owl-dot, .owl-style .owl-dots .owl-dot {
   display: inline-block
 }
 
-.owl-slide-3 .owl-dots .owl-dot>span,
-.owl-slide .owl-dots .owl-dot>span,
-.owl-style .owl-dots .owl-dot>span {
+.owl-slide-3 .owl-dots .owl-dot>span, .owl-slide .owl-dots .owl-dot>span, .owl-style .owl-dots .owl-dot>span {
   border-radius: 0%;
   display: inline-block;
   width: 18px;
@@ -926,9 +878,7 @@ h5,
   background: rgba(0, 0, 0, .2)
 }
 
-.owl-slide-3 .owl-dots .owl-dot.active>span,
-.owl-slide .owl-dots .owl-dot.active>span,
-.owl-style .owl-dots .owl-dot.active>span {
+.owl-slide-3 .owl-dots .owl-dot.active>span, .owl-slide .owl-dots .owl-dot.active>span, .owl-style .owl-dots .owl-dot.active>span {
   background: #930077
 }
 
@@ -1025,12 +975,10 @@ h5,
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0
   }
-
   50% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -35px
   }
-
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px
@@ -1042,12 +990,10 @@ h5,
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0
   }
-
   50% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -35px
   }
-
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px
@@ -1258,9 +1204,7 @@ h5,
   transform: scale(1.2)
 }
 
-.form-control:hover,
-.form-control:focus,
-.form-control:active {
+.form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none
@@ -1424,8 +1368,7 @@ h5,
   font-size: 1rem
 }
 
-.blog-entry .blog-entry-contents .meta,
-.blog-entry .blog-entry-contents .meta a {
+.blog-entry .blog-entry-contents .meta, .blog-entry .blog-entry-contents .meta a {
   color: #b0b0b0
 }
 
@@ -1451,8 +1394,7 @@ h5,
   margin-bottom: 15px
 }
 
-.categories li,
-.sidelink li {
+.categories li, .sidelink li {
   position: relative;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -1460,28 +1402,24 @@ h5,
   list-style: none
 }
 
-.categories li:last-child,
-.sidelink li:last-child {
+.categories li:last-child, .sidelink li:last-child {
   margin-bottom: 0;
   border-bottom: none;
   padding-bottom: 0
 }
 
-.categories li a,
-.sidelink li a {
+.categories li a, .sidelink li a {
   display: block
 }
 
-.categories li a span,
-.sidelink li a span {
+.categories li a span, .sidelink li a span {
   position: absolute;
   right: 0;
   top: 0;
   color: #ccc
 }
 
-.categories li.active a,
-.sidelink li.active a {
+.categories li.active a, .sidelink li.active a {
   color: #000;
   font-style: italic
 }
@@ -1574,25 +1512,21 @@ h5,
   color: #b4b4b4
 }
 
-.post-entry-1,
-.post-entry-2 {
+.post-entry-1, .post-entry-2 {
   font-size: 1rem;
   margin-bottom: 30px
 }
 
-.post-entry-1 img,
-.post-entry-2 img {
+.post-entry-1 img, .post-entry-2 img {
   margin-bottom: 30px
 }
 
-.post-entry-1 h2,
-.post-entry-2 h2 {
+.post-entry-1 h2, .post-entry-2 h2 {
   font-family: cinzel;
   font-size: 20px
 }
 
-.post-entry-1 h2 a,
-.post-entry-2 h2 a {
+.post-entry-1 h2 a, .post-entry-2 h2 a {
   color: #000
 }
 
@@ -1652,15 +1586,12 @@ h5,
   letter-spacing: .1rem
 }
 
-.half-post-entry .img-bg,
-.half-post-entry .contents {
+.half-post-entry .img-bg, .half-post-entry .contents {
   width: 50%
 }
 
 @media(max-width:991.98px) {
-
-  .half-post-entry .img-bg,
-  .half-post-entry .contents {
+  .half-post-entry .img-bg, .half-post-entry .contents {
     width: 100%;
     height: 300px
   }
@@ -1732,8 +1663,7 @@ h5,
   border: 1px solid #ccc
 }
 
-.form-control:active,
-.form-control:focus {
+.form-control:active, .form-control:focus {
   border-bottom: 1px solid #ccc
 }
 
@@ -1749,8 +1679,7 @@ h5,
   border-bottom: 1px solid #ccc
 }
 
-.subscribe form .form-control:active,
-.subscribe form .form-control:focus {
+.subscribe form .form-control:active, .subscribe form .form-control:focus {
   border-bottom: 1px solid #ccc
 }
 
@@ -1788,8 +1717,7 @@ h5,
   border-bottom: 1px solid #ccc
 }
 
-.search-form .form-control:active,
-.search-form .form-control:focus {
+.search-form .form-control:active, .search-form .form-control:focus {
   border-bottom: 1px solid #ccc
 }
 
@@ -1839,14 +1767,12 @@ h5,
   font-size: .9rem
 }
 
-.wine_v_1,
-.wine_h_1 {
+.wine_v_1, .wine_h_1 {
   position: relative;
   margin-bottom: 30px
 }
 
-.wine_v_1:before,
-.wine_h_1:before {
+.wine_v_1:before, .wine_h_1:before {
   content: "";
   background: #f3f4f5;
   top: 20%;
@@ -1857,24 +1783,20 @@ h5,
   z-index: -1
 }
 
-.wine_v_1 .thumbnail,
-.wine_h_1 .thumbnail {
+.wine_v_1 .thumbnail, .wine_h_1 .thumbnail {
   position: relative;
   display: block
 }
 
-.wine_v_1 .heading,
-.wine_h_1 .heading {
+.wine_v_1 .heading, .wine_h_1 .heading {
   font-size: 18px
 }
 
-.wine_v_1 .heading a,
-.wine_h_1 .heading a {
+.wine_v_1 .heading a, .wine_h_1 .heading a {
   color: #000
 }
 
-.wine_v_1 .wine-actions,
-.wine_h_1 .wine-actions {
+.wine_v_1 .wine-actions, .wine_h_1 .wine-actions {
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -1889,57 +1811,46 @@ h5,
   transition: .3s all ease
 }
 
-.wine_v_1 .wine-actions .heading-2,
-.wine_h_1 .wine-actions .heading-2 {
+.wine_v_1 .wine-actions .heading-2, .wine_h_1 .wine-actions .heading-2 {
   font-size: 20px
 }
 
-.wine_v_1 .wine-actions .heading-2 a,
-.wine_h_1 .wine-actions .heading-2 a {
+.wine_v_1 .wine-actions .heading-2 a, .wine_h_1 .wine-actions .heading-2 a {
   color: #000
 }
 
-.wine_v_1 .wine-actions .price,
-.wine_h_1 .wine-actions .price {
+.wine_v_1 .wine-actions .price, .wine_h_1 .wine-actions .price {
   font-size: 20px;
   color: #930077;
   font-family: cinzel
 }
 
-.wine_v_1 .wine-actions .price del,
-.wine_h_1 .wine-actions .price del {
+.wine_v_1 .wine-actions .price del, .wine_h_1 .wine-actions .price del {
   color: #ccc
 }
 
-.wine_v_1 .wine-actions .rating,
-.wine_h_1 .wine-actions .rating {
+.wine_v_1 .wine-actions .rating, .wine_h_1 .wine-actions .rating {
   margin-bottom: 20px
 }
 
-.wine_v_1 .wine-actions .rating span,
-.wine_h_1 .wine-actions .rating span {
+.wine_v_1 .wine-actions .rating span, .wine_h_1 .wine-actions .rating span {
   font-size: 16px;
   color: #ffbd39
 }
 
-.wine_v_1 .wine-actions .btn,
-.wine_h_1 .wine-actions .btn {
+.wine_v_1 .wine-actions .btn, .wine_h_1 .wine-actions .btn {
   background: #930077;
   color: #fff;
   padding: 10px 20px;
   border-radius: 0
 }
 
-.wine_v_1 .wine-actions .btn:hover,
-.wine_h_1 .wine-actions .btn:hover {
+.wine_v_1 .wine-actions .btn:hover, .wine_h_1 .wine-actions .btn:hover {
   background: #60004e;
   color: #fff
 }
 
-.wine_v_1:hover .wine-actions,
-.wine_h_1:hover .wine-actions,
-.wine_v_1:focus .wine-actions,
-.wine_h_1:focus .wine-actions {
+.wine_v_1:hover .wine-actions, .wine_h_1:hover .wine-actions, .wine_v_1:focus .wine-actions, .wine_h_1:focus .wine-actions {
   opacity: 1;
   visibility: visible
 }
@@ -2125,8 +2036,7 @@ h5,
   border-bottom-width: 1px !important
 }
 
-.site-block-order-table td,
-.site-block-order-table th {
+.site-block-order-table td, .site-block-order-table th {
   color: #000
 }
 
@@ -2150,8 +2060,7 @@ h5,
   transition: .3s all ease-in-out
 }
 
-.site-block-top-search input:focus,
-.site-block-top-search input:active {
+.site-block-top-search input:focus, .site-block-top-search input:active {
   padding-left: 25px
 }
 
